@@ -1,0 +1,41 @@
+.header{
+    padding: 15px;
+    background-color: black;
+    background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    text-align: center;
+    font-size: 45px;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+
+}
+
+.grid{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.origami{
+    background-color: wheat;
+    border-radius: 20px;
+    margin: 50px;
+    align-content: center;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.origami img{
+    border-radius: 10px;
+}
